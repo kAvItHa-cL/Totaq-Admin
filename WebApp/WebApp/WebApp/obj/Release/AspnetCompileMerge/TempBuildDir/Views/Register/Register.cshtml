@@ -1,0 +1,56 @@
+﻿@model List<WebApp.BasicDetail>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<!-- Content Wrapper. Contains page content -->
+<div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <section class="content">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3 class="card-title">Register Table</h3>
+                        </div>
+                        <!-- /.card-header -->
+                        <div class="card-body p-0">
+                            <table class="table table-striped">
+                                <tbody>
+                                    <tr>
+                                        <th style="width: 10px">#</th>
+                                        <th>FullName</th>
+                                        <th>Email</th>
+                                        <th>PhoneNumber</th>
+                                        <th>PANCard</th>
+                                        <th>AdharCard</th>
+                                        <th>Status</th>
+                                    </tr>
+                                    @foreach (var item in Model)
+                                    {
+                                        <tr>
+                                            <td>@item.Register.CRN</td>
+                                            <td>@item.FullName</td>
+                                            <td>@Html.ActionLink(item.EmailId, "Details", "Register", new { id = item.PhoneNumber }, null)</td>
+                                            <td>@item.PhoneNumber</td>
+                                            <td>@item.PANCard</td>
+                                            <td>@item.AdharCard</td>
+                                            <td><span class="badge bg-success">@item.Register.Status</span></td>
+                                        </tr>
+                                    }
+
+
+                                </tbody>
+                            </table>
+                        </div>
+                        <!-- /.card-body -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>

@@ -1,0 +1,45 @@
+/*
+ * Component: swal
+ * ----------------
+ */
+
+.swal {
+  .icon {
+    margin-right: 10px;
+  }
+
+  .close {
+    color: #000;
+    opacity: .2;
+    &:hover {
+      opacity: .5;
+    }
+  }
+
+  a {
+    color: $white;
+    text-decoration: underline;
+  }
+}
+
+//swal Variants
+.swal-success {
+  @extend .bg-success;
+  border-color: darken(theme-color("success"), 5%);
+}
+
+.swal-danger,
+.swal-error {
+  @extend .bg-danger;
+  border-color: darken(theme-color("danger"), 5%);
+}
+
+.swal-warning {
+  @extend .bg-warning;
+  border-color: darken(theme-color("warning"), 5%);
+}
+
+.swal-info {
+  @extend .bg-info;
+  border-color: darken(theme-color("info"), 5%);
+}

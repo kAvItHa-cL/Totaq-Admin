@@ -1,0 +1,300 @@
+C:\Android\Totaq Webapp\WebApp\WebApp\bin\WebApp.dll.config
+C:\Android\Totaq Webapp\WebApp\WebApp\bin\WebApp.dll
+C:\Android\Totaq Webapp\WebApp\WebApp\bin\WebApp.pdb
+C:\Android\Totaq Webapp\WebApp\WebApp\bin\roslyn\csc.exe
+C:\Android\Totaq Webapp\WebApp\WebApp\bin\roslyn\csc.exe.config
+C:\Android\Totaq Webapp\WebApp\WebApp\bin\roslyn\csc.rsp
+C:\Android\Totaq Webapp\WebApp\WebApp\bin\roslyn\csi.exe
+C:\Android\Totaq Webapp\WebApp\WebApp\bin\roslyn\csi.exe.config
+C:\Android\Totaq Webapp\WebApp\WebApp\bin\roslyn\csi.rsp
+C:\Android\Totaq Webapp\WebApp\WebApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Android\Totaq Webapp\WebApp\WebApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Android\Totaq Webapp\WebApp\WebApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Android\Totaq Webapp\WebApp\WebApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Android\Totaq Webapp\WebApp\WebApp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Android\Totaq Webapp\WebApp\WebApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Android\Totaq Webapp\WebApp\WebApp\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Android\Totaq Webapp\WebApp\WebApp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Android\Totaq Webapp\WebApp\WebApp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Android\Totaq Webapp\WebApp\WebApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Android\Totaq Webapp\WebApp\WebApp\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Android\Totaq Webapp\WebApp\WebApp\bin\roslyn\System.AppContext.dll
+C:\Android\Totaq Webapp\WebApp\WebApp\bin\roslyn\System.Collections.Immutable.dll
+C:\Android\Totaq Webapp\WebApp\WebApp\bin\roslyn\System.Console.dll
+C:\Android\Totaq Webapp\WebApp\WebApp\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Android\Totaq Webapp\WebApp\WebApp\bin\roslyn\System.Diagnostics.Process.dll
+C:\Android\Totaq Webapp\WebApp\WebApp\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Android\Totaq Webapp\WebApp\WebApp\bin\roslyn\System.IO.Compression.dll
+C:\Android\Totaq Webapp\WebApp\WebApp\bin\roslyn\System.IO.FileSystem.dll
+C:\Android\Totaq Webapp\WebApp\WebApp\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Android\Totaq Webapp\WebApp\WebApp\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Android\Totaq Webapp\WebApp\WebApp\bin\roslyn\System.IO.Pipes.dll
+C:\Android\Totaq Webapp\WebApp\WebApp\bin\roslyn\System.Reflection.Metadata.dll
+C:\Android\Totaq Webapp\WebApp\WebApp\bin\roslyn\System.Security.AccessControl.dll
+C:\Android\Totaq Webapp\WebApp\WebApp\bin\roslyn\System.Security.Claims.dll
+C:\Android\Totaq Webapp\WebApp\WebApp\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Android\Totaq Webapp\WebApp\WebApp\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Android\Totaq Webapp\WebApp\WebApp\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Android\Totaq Webapp\WebApp\WebApp\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Android\Totaq Webapp\WebApp\WebApp\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Android\Totaq Webapp\WebApp\WebApp\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Android\Totaq Webapp\WebApp\WebApp\bin\roslyn\System.Threading.Thread.dll
+C:\Android\Totaq Webapp\WebApp\WebApp\bin\roslyn\System.ValueTuple.dll
+C:\Android\Totaq Webapp\WebApp\WebApp\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Android\Totaq Webapp\WebApp\WebApp\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Android\Totaq Webapp\WebApp\WebApp\bin\roslyn\System.Xml.XPath.dll
+C:\Android\Totaq Webapp\WebApp\WebApp\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Android\Totaq Webapp\WebApp\WebApp\bin\roslyn\vbc.exe
+C:\Android\Totaq Webapp\WebApp\WebApp\bin\roslyn\vbc.exe.config
+C:\Android\Totaq Webapp\WebApp\WebApp\bin\roslyn\vbc.rsp
+C:\Android\Totaq Webapp\WebApp\WebApp\bin\roslyn\VBCSCompiler.exe
+C:\Android\Totaq Webapp\WebApp\WebApp\bin\roslyn\VBCSCompiler.exe.config
+C:\Android\Totaq Webapp\WebApp\WebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Android\Totaq Webapp\WebApp\WebApp\bin\Microsoft.Web.Infrastructure.dll
+C:\Android\Totaq Webapp\WebApp\WebApp\bin\System.Web.Helpers.dll
+C:\Android\Totaq Webapp\WebApp\WebApp\bin\System.Web.Mvc.dll
+C:\Android\Totaq Webapp\WebApp\WebApp\bin\System.Web.Razor.dll
+C:\Android\Totaq Webapp\WebApp\WebApp\bin\System.Web.Webpages.Deployment.dll
+C:\Android\Totaq Webapp\WebApp\WebApp\bin\System.Web.Webpages.dll
+C:\Android\Totaq Webapp\WebApp\WebApp\bin\System.Web.Webpages.Razor.dll
+C:\Android\Totaq Webapp\WebApp\WebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Android\Totaq Webapp\WebApp\WebApp\bin\System.Web.Razor.xml
+C:\Android\Totaq Webapp\WebApp\WebApp\bin\System.Web.Webpages.xml
+C:\Android\Totaq Webapp\WebApp\WebApp\bin\System.Web.Webpages.Deployment.xml
+C:\Android\Totaq Webapp\WebApp\WebApp\bin\System.Web.Webpages.Razor.xml
+C:\Android\Totaq Webapp\WebApp\WebApp\bin\System.Web.Helpers.xml
+C:\Android\Totaq Webapp\WebApp\WebApp\bin\System.Web.Mvc.xml
+C:\Android\Totaq Webapp\WebApp\WebApp\obj\Debug\WebApp.csprojResolveAssemblyReference.cache
+C:\Android\Totaq Webapp\WebApp\WebApp\obj\Debug\WebApp.csproj.CoreCompileInputs.cache
+C:\Android\Totaq Webapp\WebApp\WebApp\obj\Debug\WebApp.csproj.CopyComplete
+C:\Android\Totaq Webapp\WebApp\WebApp\obj\Debug\WebApp.dll
+C:\Android\Totaq Webapp\WebApp\WebApp\obj\Debug\WebApp.pdb
+C:\Android\Totaq Webapp\WebApp\WebApp\bin\EntityFramework.dll
+C:\Android\Totaq Webapp\WebApp\WebApp\bin\EntityFramework.SqlServer.dll
+C:\Android\Totaq Webapp\WebApp\WebApp\bin\EntityFramework.xml
+C:\Android\Totaq Webapp\WebApp\WebApp\bin\EntityFramework.SqlServer.xml
+C:\Users\Rekha\Downloads\WebApp\WebApp\WebApp\bin\WebApp.dll.config
+C:\Users\Rekha\Downloads\WebApp\WebApp\WebApp\bin\WebApp.dll
+C:\Users\Rekha\Downloads\WebApp\WebApp\WebApp\bin\WebApp.pdb
+C:\Users\Rekha\Downloads\WebApp\WebApp\WebApp\bin\roslyn\csc.exe
+C:\Users\Rekha\Downloads\WebApp\WebApp\WebApp\bin\roslyn\csc.exe.config
+C:\Users\Rekha\Downloads\WebApp\WebApp\WebApp\bin\roslyn\csc.rsp
+C:\Users\Rekha\Downloads\WebApp\WebApp\WebApp\bin\roslyn\csi.exe
+C:\Users\Rekha\Downloads\WebApp\WebApp\WebApp\bin\roslyn\csi.exe.config
+C:\Users\Rekha\Downloads\WebApp\WebApp\WebApp\bin\roslyn\csi.rsp
+C:\Users\Rekha\Downloads\WebApp\WebApp\WebApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Rekha\Downloads\WebApp\WebApp\WebApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Rekha\Downloads\WebApp\WebApp\WebApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Rekha\Downloads\WebApp\WebApp\WebApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Rekha\Downloads\WebApp\WebApp\WebApp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Rekha\Downloads\WebApp\WebApp\WebApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Rekha\Downloads\WebApp\WebApp\WebApp\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Rekha\Downloads\WebApp\WebApp\WebApp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Rekha\Downloads\WebApp\WebApp\WebApp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Rekha\Downloads\WebApp\WebApp\WebApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Rekha\Downloads\WebApp\WebApp\WebApp\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Rekha\Downloads\WebApp\WebApp\WebApp\bin\roslyn\System.AppContext.dll
+C:\Users\Rekha\Downloads\WebApp\WebApp\WebApp\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Rekha\Downloads\WebApp\WebApp\WebApp\bin\roslyn\System.Console.dll
+C:\Users\Rekha\Downloads\WebApp\WebApp\WebApp\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Rekha\Downloads\WebApp\WebApp\WebApp\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\Rekha\Downloads\WebApp\WebApp\WebApp\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Rekha\Downloads\WebApp\WebApp\WebApp\bin\roslyn\System.IO.Compression.dll
+C:\Users\Rekha\Downloads\WebApp\WebApp\WebApp\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Rekha\Downloads\WebApp\WebApp\WebApp\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\Rekha\Downloads\WebApp\WebApp\WebApp\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Rekha\Downloads\WebApp\WebApp\WebApp\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Rekha\Downloads\WebApp\WebApp\WebApp\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Rekha\Downloads\WebApp\WebApp\WebApp\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Rekha\Downloads\WebApp\WebApp\WebApp\bin\roslyn\System.Security.Claims.dll
+C:\Users\Rekha\Downloads\WebApp\WebApp\WebApp\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Rekha\Downloads\WebApp\WebApp\WebApp\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Rekha\Downloads\WebApp\WebApp\WebApp\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Rekha\Downloads\WebApp\WebApp\WebApp\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Rekha\Downloads\WebApp\WebApp\WebApp\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Rekha\Downloads\WebApp\WebApp\WebApp\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Rekha\Downloads\WebApp\WebApp\WebApp\bin\roslyn\System.Threading.Thread.dll
+C:\Users\Rekha\Downloads\WebApp\WebApp\WebApp\bin\roslyn\System.ValueTuple.dll
+C:\Users\Rekha\Downloads\WebApp\WebApp\WebApp\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Rekha\Downloads\WebApp\WebApp\WebApp\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Rekha\Downloads\WebApp\WebApp\WebApp\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Rekha\Downloads\WebApp\WebApp\WebApp\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Rekha\Downloads\WebApp\WebApp\WebApp\bin\roslyn\vbc.exe
+C:\Users\Rekha\Downloads\WebApp\WebApp\WebApp\bin\roslyn\vbc.exe.config
+C:\Users\Rekha\Downloads\WebApp\WebApp\WebApp\bin\roslyn\vbc.rsp
+C:\Users\Rekha\Downloads\WebApp\WebApp\WebApp\bin\roslyn\VBCSCompiler.exe
+C:\Users\Rekha\Downloads\WebApp\WebApp\WebApp\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Rekha\Downloads\WebApp\WebApp\WebApp\bin\EntityFramework.dll
+C:\Users\Rekha\Downloads\WebApp\WebApp\WebApp\bin\EntityFramework.SqlServer.dll
+C:\Users\Rekha\Downloads\WebApp\WebApp\WebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Rekha\Downloads\WebApp\WebApp\WebApp\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Rekha\Downloads\WebApp\WebApp\WebApp\bin\System.Web.Helpers.dll
+C:\Users\Rekha\Downloads\WebApp\WebApp\WebApp\bin\System.Web.Mvc.dll
+C:\Users\Rekha\Downloads\WebApp\WebApp\WebApp\bin\System.Web.Razor.dll
+C:\Users\Rekha\Downloads\WebApp\WebApp\WebApp\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Rekha\Downloads\WebApp\WebApp\WebApp\bin\System.Web.Webpages.dll
+C:\Users\Rekha\Downloads\WebApp\WebApp\WebApp\bin\System.Web.Webpages.Razor.dll
+C:\Users\Rekha\Downloads\WebApp\WebApp\WebApp\bin\EntityFramework.xml
+C:\Users\Rekha\Downloads\WebApp\WebApp\WebApp\bin\EntityFramework.SqlServer.xml
+C:\Users\Rekha\Downloads\WebApp\WebApp\WebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Rekha\Downloads\WebApp\WebApp\WebApp\bin\System.Web.Razor.xml
+C:\Users\Rekha\Downloads\WebApp\WebApp\WebApp\bin\System.Web.Webpages.xml
+C:\Users\Rekha\Downloads\WebApp\WebApp\WebApp\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Rekha\Downloads\WebApp\WebApp\WebApp\bin\System.Web.Webpages.Razor.xml
+C:\Users\Rekha\Downloads\WebApp\WebApp\WebApp\bin\System.Web.Helpers.xml
+C:\Users\Rekha\Downloads\WebApp\WebApp\WebApp\bin\System.Web.Mvc.xml
+C:\Users\Rekha\Downloads\WebApp\WebApp\WebApp\obj\Debug\WebApp.csprojResolveAssemblyReference.cache
+C:\Users\Rekha\Downloads\WebApp\WebApp\WebApp\obj\Debug\WebApp.csproj.CoreCompileInputs.cache
+C:\Users\Rekha\Downloads\WebApp\WebApp\WebApp\obj\Debug\WebApp.csproj.CopyComplete
+C:\Users\Rekha\Downloads\WebApp\WebApp\WebApp\obj\Debug\WebApp.dll
+C:\Users\Rekha\Downloads\WebApp\WebApp\WebApp\obj\Debug\WebApp.pdb
+C:\Android\Totaq Webapp\WebApp\WebApp\WebApp\bin\WebApp.dll.config
+C:\Android\Totaq Webapp\WebApp\WebApp\WebApp\bin\WebApp.dll
+C:\Android\Totaq Webapp\WebApp\WebApp\WebApp\bin\WebApp.pdb
+C:\Android\Totaq Webapp\WebApp\WebApp\WebApp\bin\roslyn\csc.exe
+C:\Android\Totaq Webapp\WebApp\WebApp\WebApp\bin\roslyn\csc.exe.config
+C:\Android\Totaq Webapp\WebApp\WebApp\WebApp\bin\roslyn\csc.rsp
+C:\Android\Totaq Webapp\WebApp\WebApp\WebApp\bin\roslyn\csi.exe
+C:\Android\Totaq Webapp\WebApp\WebApp\WebApp\bin\roslyn\csi.exe.config
+C:\Android\Totaq Webapp\WebApp\WebApp\WebApp\bin\roslyn\csi.rsp
+C:\Android\Totaq Webapp\WebApp\WebApp\WebApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Android\Totaq Webapp\WebApp\WebApp\WebApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Android\Totaq Webapp\WebApp\WebApp\WebApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Android\Totaq Webapp\WebApp\WebApp\WebApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Android\Totaq Webapp\WebApp\WebApp\WebApp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Android\Totaq Webapp\WebApp\WebApp\WebApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Android\Totaq Webapp\WebApp\WebApp\WebApp\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Android\Totaq Webapp\WebApp\WebApp\WebApp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Android\Totaq Webapp\WebApp\WebApp\WebApp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Android\Totaq Webapp\WebApp\WebApp\WebApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Android\Totaq Webapp\WebApp\WebApp\WebApp\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Android\Totaq Webapp\WebApp\WebApp\WebApp\bin\roslyn\System.AppContext.dll
+C:\Android\Totaq Webapp\WebApp\WebApp\WebApp\bin\roslyn\System.Collections.Immutable.dll
+C:\Android\Totaq Webapp\WebApp\WebApp\WebApp\bin\roslyn\System.Console.dll
+C:\Android\Totaq Webapp\WebApp\WebApp\WebApp\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Android\Totaq Webapp\WebApp\WebApp\WebApp\bin\roslyn\System.Diagnostics.Process.dll
+C:\Android\Totaq Webapp\WebApp\WebApp\WebApp\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Android\Totaq Webapp\WebApp\WebApp\WebApp\bin\roslyn\System.IO.Compression.dll
+C:\Android\Totaq Webapp\WebApp\WebApp\WebApp\bin\roslyn\System.IO.FileSystem.dll
+C:\Android\Totaq Webapp\WebApp\WebApp\WebApp\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Android\Totaq Webapp\WebApp\WebApp\WebApp\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Android\Totaq Webapp\WebApp\WebApp\WebApp\bin\roslyn\System.IO.Pipes.dll
+C:\Android\Totaq Webapp\WebApp\WebApp\WebApp\bin\roslyn\System.Reflection.Metadata.dll
+C:\Android\Totaq Webapp\WebApp\WebApp\WebApp\bin\roslyn\System.Security.AccessControl.dll
+C:\Android\Totaq Webapp\WebApp\WebApp\WebApp\bin\roslyn\System.Security.Claims.dll
+C:\Android\Totaq Webapp\WebApp\WebApp\WebApp\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Android\Totaq Webapp\WebApp\WebApp\WebApp\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Android\Totaq Webapp\WebApp\WebApp\WebApp\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Android\Totaq Webapp\WebApp\WebApp\WebApp\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Android\Totaq Webapp\WebApp\WebApp\WebApp\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Android\Totaq Webapp\WebApp\WebApp\WebApp\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Android\Totaq Webapp\WebApp\WebApp\WebApp\bin\roslyn\System.Threading.Thread.dll
+C:\Android\Totaq Webapp\WebApp\WebApp\WebApp\bin\roslyn\System.ValueTuple.dll
+C:\Android\Totaq Webapp\WebApp\WebApp\WebApp\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Android\Totaq Webapp\WebApp\WebApp\WebApp\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Android\Totaq Webapp\WebApp\WebApp\WebApp\bin\roslyn\System.Xml.XPath.dll
+C:\Android\Totaq Webapp\WebApp\WebApp\WebApp\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Android\Totaq Webapp\WebApp\WebApp\WebApp\bin\roslyn\vbc.exe
+C:\Android\Totaq Webapp\WebApp\WebApp\WebApp\bin\roslyn\vbc.exe.config
+C:\Android\Totaq Webapp\WebApp\WebApp\WebApp\bin\roslyn\vbc.rsp
+C:\Android\Totaq Webapp\WebApp\WebApp\WebApp\bin\roslyn\VBCSCompiler.exe
+C:\Android\Totaq Webapp\WebApp\WebApp\WebApp\bin\roslyn\VBCSCompiler.exe.config
+C:\Android\Totaq Webapp\WebApp\WebApp\WebApp\bin\EntityFramework.dll
+C:\Android\Totaq Webapp\WebApp\WebApp\WebApp\bin\EntityFramework.SqlServer.dll
+C:\Android\Totaq Webapp\WebApp\WebApp\WebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Android\Totaq Webapp\WebApp\WebApp\WebApp\bin\Microsoft.Web.Infrastructure.dll
+C:\Android\Totaq Webapp\WebApp\WebApp\WebApp\bin\System.Web.Helpers.dll
+C:\Android\Totaq Webapp\WebApp\WebApp\WebApp\bin\System.Web.Mvc.dll
+C:\Android\Totaq Webapp\WebApp\WebApp\WebApp\bin\System.Web.Razor.dll
+C:\Android\Totaq Webapp\WebApp\WebApp\WebApp\bin\System.Web.Webpages.Deployment.dll
+C:\Android\Totaq Webapp\WebApp\WebApp\WebApp\bin\System.Web.Webpages.dll
+C:\Android\Totaq Webapp\WebApp\WebApp\WebApp\bin\System.Web.Webpages.Razor.dll
+C:\Android\Totaq Webapp\WebApp\WebApp\WebApp\bin\EntityFramework.xml
+C:\Android\Totaq Webapp\WebApp\WebApp\WebApp\bin\EntityFramework.SqlServer.xml
+C:\Android\Totaq Webapp\WebApp\WebApp\WebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Android\Totaq Webapp\WebApp\WebApp\WebApp\bin\System.Web.Razor.xml
+C:\Android\Totaq Webapp\WebApp\WebApp\WebApp\bin\System.Web.Webpages.xml
+C:\Android\Totaq Webapp\WebApp\WebApp\WebApp\bin\System.Web.Webpages.Deployment.xml
+C:\Android\Totaq Webapp\WebApp\WebApp\WebApp\bin\System.Web.Webpages.Razor.xml
+C:\Android\Totaq Webapp\WebApp\WebApp\WebApp\bin\System.Web.Helpers.xml
+C:\Android\Totaq Webapp\WebApp\WebApp\WebApp\bin\System.Web.Mvc.xml
+C:\Android\Totaq Webapp\WebApp\WebApp\WebApp\obj\Debug\WebApp.csprojResolveAssemblyReference.cache
+C:\Android\Totaq Webapp\WebApp\WebApp\WebApp\obj\Debug\WebApp.csproj.CoreCompileInputs.cache
+C:\Android\Totaq Webapp\WebApp\WebApp\WebApp\obj\Debug\WebApp.csproj.CopyComplete
+C:\Android\Totaq Webapp\WebApp\WebApp\WebApp\obj\Debug\WebApp.dll
+C:\Android\Totaq Webapp\WebApp\WebApp\WebApp\obj\Debug\WebApp.pdb
+D:\WebApp\WebApp\WebApp\obj\Debug\WebApp.csprojAssemblyReference.cache
+D:\WebApp\WebApp\WebApp\obj\Debug\WebApp.csproj.CoreCompileInputs.cache
+D:\WebApp\WebApp\WebApp\obj\Debug\WebApp.dll
+D:\WebApp\WebApp\WebApp\obj\Debug\WebApp.pdb
+D:\WebApp\WebApp\WebApp\bin\WebApp.dll.config
+D:\WebApp\WebApp\WebApp\bin\WebApp.dll
+D:\WebApp\WebApp\WebApp\bin\WebApp.pdb
+D:\WebApp\WebApp\WebApp\bin\roslyn\csc.exe
+D:\WebApp\WebApp\WebApp\bin\roslyn\csc.exe.config
+D:\WebApp\WebApp\WebApp\bin\roslyn\csc.rsp
+D:\WebApp\WebApp\WebApp\bin\roslyn\csi.exe
+D:\WebApp\WebApp\WebApp\bin\roslyn\csi.exe.config
+D:\WebApp\WebApp\WebApp\bin\roslyn\csi.rsp
+D:\WebApp\WebApp\WebApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\WebApp\WebApp\WebApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\WebApp\WebApp\WebApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\WebApp\WebApp\WebApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\WebApp\WebApp\WebApp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\WebApp\WebApp\WebApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\WebApp\WebApp\WebApp\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\WebApp\WebApp\WebApp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\WebApp\WebApp\WebApp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\WebApp\WebApp\WebApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\WebApp\WebApp\WebApp\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\WebApp\WebApp\WebApp\bin\roslyn\System.AppContext.dll
+D:\WebApp\WebApp\WebApp\bin\roslyn\System.Collections.Immutable.dll
+D:\WebApp\WebApp\WebApp\bin\roslyn\System.Console.dll
+D:\WebApp\WebApp\WebApp\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\WebApp\WebApp\WebApp\bin\roslyn\System.Diagnostics.Process.dll
+D:\WebApp\WebApp\WebApp\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\WebApp\WebApp\WebApp\bin\roslyn\System.IO.Compression.dll
+D:\WebApp\WebApp\WebApp\bin\roslyn\System.IO.FileSystem.dll
+D:\WebApp\WebApp\WebApp\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+D:\WebApp\WebApp\WebApp\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\WebApp\WebApp\WebApp\bin\roslyn\System.IO.Pipes.dll
+D:\WebApp\WebApp\WebApp\bin\roslyn\System.Reflection.Metadata.dll
+D:\WebApp\WebApp\WebApp\bin\roslyn\System.Security.AccessControl.dll
+D:\WebApp\WebApp\WebApp\bin\roslyn\System.Security.Claims.dll
+D:\WebApp\WebApp\WebApp\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\WebApp\WebApp\WebApp\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\WebApp\WebApp\WebApp\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\WebApp\WebApp\WebApp\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\WebApp\WebApp\WebApp\bin\roslyn\System.Security.Principal.Windows.dll
+D:\WebApp\WebApp\WebApp\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\WebApp\WebApp\WebApp\bin\roslyn\System.Threading.Thread.dll
+D:\WebApp\WebApp\WebApp\bin\roslyn\System.ValueTuple.dll
+D:\WebApp\WebApp\WebApp\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\WebApp\WebApp\WebApp\bin\roslyn\System.Xml.XmlDocument.dll
+D:\WebApp\WebApp\WebApp\bin\roslyn\System.Xml.XPath.dll
+D:\WebApp\WebApp\WebApp\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\WebApp\WebApp\WebApp\bin\roslyn\vbc.exe
+D:\WebApp\WebApp\WebApp\bin\roslyn\vbc.exe.config
+D:\WebApp\WebApp\WebApp\bin\roslyn\vbc.rsp
+D:\WebApp\WebApp\WebApp\bin\roslyn\VBCSCompiler.exe
+D:\WebApp\WebApp\WebApp\bin\roslyn\VBCSCompiler.exe.config
+D:\WebApp\WebApp\WebApp\bin\EntityFramework.dll
+D:\WebApp\WebApp\WebApp\bin\EntityFramework.SqlServer.dll
+D:\WebApp\WebApp\WebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\WebApp\WebApp\WebApp\bin\Microsoft.Web.Infrastructure.dll
+D:\WebApp\WebApp\WebApp\bin\System.Web.Helpers.dll
+D:\WebApp\WebApp\WebApp\bin\System.Web.Mvc.dll
+D:\WebApp\WebApp\WebApp\bin\System.Web.Razor.dll
+D:\WebApp\WebApp\WebApp\bin\System.Web.Webpages.Deployment.dll
+D:\WebApp\WebApp\WebApp\bin\System.Web.Webpages.dll
+D:\WebApp\WebApp\WebApp\bin\System.Web.Webpages.Razor.dll
+D:\WebApp\WebApp\WebApp\bin\EntityFramework.xml
+D:\WebApp\WebApp\WebApp\bin\EntityFramework.SqlServer.xml
+D:\WebApp\WebApp\WebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\WebApp\WebApp\WebApp\bin\System.Web.Razor.xml
+D:\WebApp\WebApp\WebApp\bin\System.Web.Webpages.xml
+D:\WebApp\WebApp\WebApp\bin\System.Web.Webpages.Deployment.xml
+D:\WebApp\WebApp\WebApp\bin\System.Web.Webpages.Razor.xml
+D:\WebApp\WebApp\WebApp\bin\System.Web.Helpers.xml
+D:\WebApp\WebApp\WebApp\bin\System.Web.Mvc.xml
+D:\WebApp\WebApp\WebApp\obj\Debug\WebApp.csproj.CopyComplete

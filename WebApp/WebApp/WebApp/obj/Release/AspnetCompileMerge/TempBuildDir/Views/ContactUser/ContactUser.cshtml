@@ -1,0 +1,130 @@
+﻿@{
+    ViewBag.Title = "Contact Us";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>SignIn</title>
+    <link rel="stylesheet" href="~/plugins/font-awesome/css/font-awesome.min.css">
+    <!-- Theme style -->
+    <link rel="stylesheet" href="~/dist/css/adminlte.min.css">
+    <!-- Google Font: Source Sans Pro -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+</head>
+<body>
+    <div class="row">
+        <div class="container" style="max-width: 393px;">
+            <br />
+            <br />
+            <div class="card card-info">
+                <div class="card-header">
+                    <h3 class="card-title">SEND MESSAGE</h3>
+                </div>
+                <!-- /.card-header -->
+                <!-- form start -->
+
+
+                <form class="form-horizontal">
+                    <div class="card-body">
+                        <div class="form-group">
+                            <label for="inputEmail3" style="max-width: 55.666667%;" class="col-sm-2 control-label">User EmailId</label>
+                            <div class="col-sm-10">
+                                <select name="selectSm" data-id="SelectLm" onchange="ContactUser(this);" id="Email" class="form-control-sm form-control statusc">
+                                    <option value="All">Select</option>
+
+                                </select>
+                            </div>
+                        </div>
+                        <br />
+
+                        <div class="form-group">
+                            <label for="inputPassword3" style="max-width: 22.666667%;" class="col-sm-2 control-label">Message</label>
+                            <div class="form-group">
+                                <textarea name="textarea-input" id="Message" rows="9" placeholder="Message..." class="form-control"></textarea>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- /.card-body -->
+                    <div class="card-footer">
+                        <button type="submit" id="ContactButton" class="btn btn-info">SUBMIT</button>
+
+                    </div>
+                    <!-- /.card-footer -->
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+@*<div class="col-lg-12">
+    <div class="card">
+        <div class="card-header"><strong>Contact User</strong></div>
+        <div class="card-body card-block">
+            <div class="form-group">
+                <label for="company" class=" form-control-label">Email</label>
+                <select name="selectSm" data-id="SelectLm" onchange="ContactUser(this);" id="Email" class="form-control-sm form-control statusc">
+                    <option value="All">All</option>
+
+                </select>
+            </div>
+            <div class=" form-group">
+                <label for="textarea-input" class=" form-control-label">Message</label>
+            </div>
+            <textarea name="textarea-input" id="Message" rows="9" placeholder="Message..." class="form-control"></textarea>
+        </div>
+    </div>
+    <div class="form-actions form-group">
+        <button type="button" id="ContactButton" class="btn btn-primary btn-sm">Send</button>
+    </div>
+</div>*@
+
+<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#ContactButton").click(function () {
+            if ($("#Email").val() == "" || $("#Message").val() == "") {
+                swal("Please fill al the fields")
+                return false;
+            }
+
+            $.ajax({
+                url: "/ContactUser/SendMail",
+                type: "POST",
+                data: {
+
+                    EmailId: $("#Email").val(),
+                    Message: $("#Message").val(),
+
+                },
+                dataType: "json",
+                success: successFunc,
+                error: errorFunc,
+            });
+            function successFunc(response) {
+                if (response == "success")
+                    swal("Error")
+            }
+            function errorFunc() {
+
+                swal("Message sent successfully")
+            }
+        });
+    });
+</script>
+<script>
+    $(document).ready(function () {
+
+        $.get('/ContactUser/UsernameSelectList', function (data) {
+            //console.log(data)
+            $.each(data, function (index, value) {
+                $('<option>').val(value).text(value).appendTo("#Email");
+            })
+        })
+    })
+</script>

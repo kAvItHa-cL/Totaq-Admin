@@ -1,0 +1,284 @@
+﻿@model WebApp.Register
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!-- Content Wrapper. Contains page content -->
+<div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <section class="content">
+        <div class="container-fluid">
+            <div class="row" style="margin-top: 10px;">
+
+                <div class="col-md-6">
+                    <div class="card card-primary">
+                        <div class="card-header">
+                            <h3 class="card-title">Basic Details</h3>
+                        </div>
+                        <!-- /.card-header -->
+                        @foreach (var basic in Model.BasicDetails)
+                        {
+                            <div class="card-body">
+                                <div class="form-group">
+                                    <label>Full Name</label>
+                                    <input type="text" class="form-control" value="@basic.FullName" placeholder="Enter ...">
+                                </div>
+                                <br />
+                                <div class="form-group">
+                                    <label>Phone Number</label>
+                                    <input type="text" class="form-control" value="@basic.PhoneNumber" placeholder="Enter ...">
+                                </div>
+                                <br />
+                                <div class="form-group">
+                                    <label>Email Id</label>
+                                    <input type="text" class="form-control" value="@basic.EmailId" placeholder="Enter ...">
+                                </div>
+                                <br />
+                                <div class="form-group">
+                                    <label>KYC Status</label>
+                                    <input type="text" class="form-control" value="@basic.KYCStatus" placeholder="Enter ...">
+                                </div>
+                                <br />
+                            </div>
+                        }
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card card-primary">
+                        <div class="card-header">
+                            <h3 class="card-title">Professional Details</h3>
+                        </div>
+                        <!-- /.card-header -->
+                        <div class="card-body">
+                            @foreach (var pro in Model.ProfessionalDetails)
+                            {
+                                <div class="form-group">
+                                    <label>Company Name</label>
+                                    <input type="text" class="form-control" value="@pro.CompanyName" placeholder="Enter ...">
+                                </div>
+                                <br />
+                                <div class="form-group">
+                                    <label>Company Address</label>
+                                    <input type="text" class="form-control" value="@pro.CompanyAddress" placeholder="Enter ...">
+                                </div>
+                                <br />
+                                <div class="form-group">
+                                    <label>Monthly Income</label>
+                                    <input type="text" class="form-control" value="@pro.MonthlyIncome" placeholder="Enter ...">
+                                </div>
+                                <br />
+                                <div class="form-group">
+                                    <label>Current EMI</label>
+                                    <input type="text" class="form-control" value="@pro.CurrentEMI" placeholder="Enter ...">
+                                </div>
+                                <br />
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" style="margin-top: 10px;">
+
+                <div class="col-md-6">
+                    <div class="card card-primary">
+                        <div class="card-header">
+                            <h3 class="card-title">Personal Details</h3>
+                        </div>
+                        <!-- /.card-header -->
+                        <div class="card-body">
+                            @foreach (var per in Model.PersonalDetails)
+                            {
+                                <div class="form-group">
+                                    <label>Father Name</label>
+                                    <input type="text" class="form-control" value="@per.FatherName" placeholder="Enter ...">
+                                </div>
+                                <br />
+                                <div class="form-group">
+                                    <label>Mother Name</label>
+                                    <input type="text" class="form-control" value="@per.MotherName" placeholder="Enter ...">
+                                </div>
+                                <br />
+                                <div class="form-group">
+                                    <label>Marital Status</label>
+                                    <input type="text" class="form-control" value="@per.MaritalStatus" placeholder="Enter ...">
+                                </div>
+                                <br />
+                                <div class="form-group">
+                                    <label>Current Address</label>
+                                    <input type="text" class="form-control" value="@per.CurrentAddress" placeholder="Enter ...">
+                                </div>
+                                <br />
+                            }
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card card-primary">
+                        <div class="card-header">
+                            <h3 class="card-title">Reference Details</h3>
+                        </div>
+                        <!-- /.card-header -->
+                        <div class="card-body">
+                            @foreach (var refer in Model.ReferenceDetails)
+                            {
+                                <div class="form-group">
+                                    <label>Reference Name 1</label>
+                                    <input type="text" class="form-control" value="@refer.ReferenceName1" placeholder="Enter ...">
+                                </div>
+                                <br />
+                                <div class="form-group">
+                                    <label>Reference Phone Number 1</label>
+                                    <input type="text" class="form-control" value="@refer.Reference1" placeholder="Enter ...">
+                                </div>
+                                <br />
+                                <div class="form-group">
+                                    <label>Reference Name 2</label>
+                                    <input type="text" class="form-control" value="@refer.ReferenceName2" placeholder="Enter ...">
+                                </div>
+                                <br />
+                                <div class="form-group">
+                                    <label>Reference Phone Number 2</label>
+                                    <input type="text" class="form-control" value="@refer.Reference2" placeholder="Enter ...">
+                                </div>
+                                <br />
+                            }
+                        </div>
+
+                    </div>
+                </div>
+                @foreach (var img in Model.AdharCardDocuments)
+                {
+                    <div class="card">
+                        <img class="mx-auto d-block" src="@img.AdharCardUrl" alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="card-title mb-3">Aadhaar Front</h4>
+
+                        </div>
+                    </div>
+                }
+                @foreach (var img in Model.SelfieDocuments)
+                {
+                    <div class="card">
+                        <img class="mx-auto d-block" src="@img.SelfieUrl" alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="card-title mb-3">selfie</h4>
+
+                        </div>
+                    </div>
+                }
+                @foreach (var img in Model.BankstatementDocuments)
+                {
+                    <div class="card">
+                        <img class="mx-auto d-block" src="@img.BankstatementDocumentUrl" alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="card-title mb-3">Bank Status</h4>
+
+                        </div>
+                    </div>
+                }
+                @foreach (var img in Model.PANCardDocuments)
+                {
+                    <div class="card">
+                        <img class="mx-auto d-block" src="@img.PANCardUrl" alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="card-title mb-3">PAN Card</h4>
+
+                        </div>
+                    </div>
+                }
+                @foreach (var doc1 in Model.SignatureDocuments)
+                {
+                    <div class="card">
+                        <img class=" mx-auto d-block" src="@doc1.SignatureUrl" alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="card-title mb-3">signature</h4>
+
+                        </div>
+                    </div>
+                }
+                @foreach (var doc2 in Model.PaySlipDocuments)
+                {
+                    <div class="card">
+                        <img class=" mx-auto d-block" src="@doc2.PaySlipUrl" alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="card-title mb-3">Pay Slip</h4>
+
+                        </div>
+                    </div>
+                }
+                @foreach (var doc3 in Model.IDCardDocuments)
+                {
+                    <div class="card">
+                        <img class="mx-auto d-block" src="@doc3.IDCardUrl" alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="card-title mb-3">ID Card</h4>
+
+                        </div>
+                    </div>
+                }
+
+            </div>
+
+            <button type="button" id="DisApprove" value="@Model.PhoneNumber" class="btn btn-block btn-danger btn-sm">Reject</button>
+            <button type="button" id="Approve" value="@Model.PhoneNumber" class="btn btn-block btn-success btn-sm">Approve</button>
+
+        </div>
+    </section>
+</div>
+<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+<script>
+        $(document).ready(function () {
+            $("#Approve").click(function () {
+               
+                var PhoneNumber = $(this).val();
+               
+                $.ajax({
+                    url: "/Register/ApproveLoan",
+                    type: "POST",
+                    data: {
+
+                        PhoneNumber: PhoneNumber,
+                        Title: "Approved",
+                        Message: "Your Registration Application is Approved"
+                    },
+                    dataType: "json",
+                    success: function (response) {
+                        swal("Registration Approved");
+                    },
+                    failure: function (response) {
+                        swal("error");
+                    },
+
+                });
+            });
+        });
+</script>
+<script>
+        $(document).ready(function () {
+            $("#DisApprove").click(function () {
+                var PhoneNumber = $(this).val();
+
+                $.ajax({
+                    url: "/Register/DisApproveLoan",
+                    type: "POST",
+                    data: {
+
+                        PhoneNumber: PhoneNumber,
+                        Title: "Rejected",
+                        Message: "Your Registration is Rejected",
+                    },
+                    dataType: "json",
+                    success: function (response) {
+                        swal("Registration Rejected");
+                    },
+                    failure: function (response) {
+                        swal("error");
+                    },
+
+                });
+            });
+        });
+</script>

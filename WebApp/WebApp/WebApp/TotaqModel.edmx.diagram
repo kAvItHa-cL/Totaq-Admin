@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="536358a608c0431496286cbf5ba8c6ec" Name="Diagram1">
+        <EntityTypeShape EntityType="TLTESTDBModel.AdharCardDocument" Width="1.5" PointX="3" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLTESTDBModel.AdminLogin" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLTESTDBModel.BankstatementDocument" Width="1.5" PointX="3" PointY="6.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLTESTDBModel.BasicDetail" Width="1.5" PointX="3" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLTESTDBModel.ContactUser" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLTESTDBModel.ErrorLog" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLTESTDBModel.IDCardDocument" Width="1.5" PointX="3" PointY="12.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLTESTDBModel.LoanDetail" Width="1.5" PointX="3" PointY="15" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLTESTDBModel.Notification" Width="1.5" PointX="3" PointY="19.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLTESTDBModel.OneTimeFee" Width="1.5" PointX="3" PointY="23" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLTESTDBModel.PANCardDocument" Width="1.5" PointX="3" PointY="26.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLTESTDBModel.Payment" Width="1.5" PointX="3" PointY="29" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLTESTDBModel.PaySlipDocument" Width="1.5" PointX="3" PointY="32.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLTESTDBModel.PersonalDetail" Width="1.5" PointX="3" PointY="35.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLTESTDBModel.ProfessionalDetail" Width="1.5" PointX="3" PointY="38.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLTESTDBModel.ReferenceDetail" Width="1.5" PointX="3" PointY="42.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLTESTDBModel.Register" Width="1.5" PointX="0.75" PointY="24.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLTESTDBModel.SelfieDocument" Width="1.5" PointX="3" PointY="45.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLTESTDBModel.SignatureDocument" Width="1.5" PointX="3" PointY="48.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TLTESTDBModel.UserContact" Width="1.5" PointX="3" PointY="51.25" IsExpanded="true" />
+        <AssociationConnector Association="TLTESTDBModel.FK__AdharCard__Phone__6A30C649" ManuallyRouted="false" />
+        <AssociationConnector Association="TLTESTDBModel.FK__AdharCard__Phone__6B24EA82" ManuallyRouted="false" />
+        <AssociationConnector Association="TLTESTDBModel.FK__Bankstate__Phone__6C190EBB" ManuallyRouted="false" />
+        <AssociationConnector Association="TLTESTDBModel.FK__Bankstate__Phone__6D0D32F4" ManuallyRouted="false" />
+        <AssociationConnector Association="TLTESTDBModel.FK__BasicDeta__Phone__6E01572D" ManuallyRouted="false" />
+        <AssociationConnector Association="TLTESTDBModel.FK__BasicDeta__Phone__6EF57B66" ManuallyRouted="false" />
+        <AssociationConnector Association="TLTESTDBModel.FK__IDCardDoc__Phone__6FE99F9F" ManuallyRouted="false" />
+        <AssociationConnector Association="TLTESTDBModel.FK__IDCardDoc__Phone__70DDC3D8" ManuallyRouted="false" />
+        <AssociationConnector Association="TLTESTDBModel.FK__LoanDetai__Phone__71D1E811" ManuallyRouted="false" />
+        <AssociationConnector Association="TLTESTDBModel.FK__LoanDetai__Phone__72C60C4A" ManuallyRouted="false" />
+        <AssociationConnector Association="TLTESTDBModel.FK__Notificat__Phone__73BA3083" ManuallyRouted="false" />
+        <AssociationConnector Association="TLTESTDBModel.FK__Notificat__Phone__74AE54BC" ManuallyRouted="false" />
+        <AssociationConnector Association="TLTESTDBModel.FK__OneTimeFe__Phone__75A278F5" ManuallyRouted="false" />
+        <AssociationConnector Association="TLTESTDBModel.FK__OneTimeFe__Phone__76969D2E" ManuallyRouted="false" />
+        <AssociationConnector Association="TLTESTDBModel.FK__PANCardDo__Phone__778AC167" ManuallyRouted="false" />
+        <AssociationConnector Association="TLTESTDBModel.FK__PANCardDo__Phone__787EE5A0" ManuallyRouted="false" />
+        <AssociationConnector Association="TLTESTDBModel.FK__Payments__PhoneN__797309D9" ManuallyRouted="false" />
+        <AssociationConnector Association="TLTESTDBModel.FK__Payments__PhoneN__7A672E12" ManuallyRouted="false" />
+        <AssociationConnector Association="TLTESTDBModel.FK__PaySlipDo__Phone__7B5B524B" ManuallyRouted="false" />
+        <AssociationConnector Association="TLTESTDBModel.FK__PaySlipDo__Phone__7C4F7684" ManuallyRouted="false" />
+        <AssociationConnector Association="TLTESTDBModel.FK__PersonalD__Phone__7D439ABD" ManuallyRouted="false" />
+        <AssociationConnector Association="TLTESTDBModel.FK__PersonalD__Phone__7E37BEF6" ManuallyRouted="false" />
+        <AssociationConnector Association="TLTESTDBModel.FK__Professio__Phone__00200768" ManuallyRouted="false" />
+        <AssociationConnector Association="TLTESTDBModel.FK__Professio__Phone__7F2BE32F" ManuallyRouted="false" />
+        <AssociationConnector Association="TLTESTDBModel.FK__Reference__Phone__01142BA1" ManuallyRouted="false" />
+        <AssociationConnector Association="TLTESTDBModel.FK__Reference__Phone__02084FDA" ManuallyRouted="false" />
+        <AssociationConnector Association="TLTESTDBModel.FK__SelfieDoc__Phone__02FC7413" ManuallyRouted="false" />
+        <AssociationConnector Association="TLTESTDBModel.FK__SelfieDoc__Phone__03F0984C" ManuallyRouted="false" />
+        <AssociationConnector Association="TLTESTDBModel.FK__Signature__Phone__04E4BC85" ManuallyRouted="false" />
+        <AssociationConnector Association="TLTESTDBModel.FK__Signature__Phone__05D8E0BE" ManuallyRouted="false" />
+        <AssociationConnector Association="TLTESTDBModel.FK__UserConta__Phone__06CD04F7" ManuallyRouted="false" />
+        <AssociationConnector Association="TLTESTDBModel.FK__UserConta__Phone__07C12930" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

@@ -1,0 +1,75 @@
+﻿@model List<WebApp.Register>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<!-- Content Wrapper. Contains page content -->
+<div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <section class="content">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3 class="card-title">User table</h3>
+                        </div>
+                        <!-- /.card-header -->
+                        <div class="card-body p-0">
+                            <table class="table table-striped">
+                                <tbody>
+                                    <tr>
+                                        <th>Totaq CRN</th>
+                                        <th>Email ID</th>
+                                        <th>Company Name</th>
+                                        <th>Loan amount</th>
+                                        <th>Due Date</th>
+                                        <th>Percentage</th>
+                                        <th>Interest + principal</th>
+                                        <th>Application status</th>
+                                    </tr>
+                                    @foreach (var item in Model)
+    {
+                                <tr>
+
+                                    <th scope="row">@item.CRN</th>
+                                    @foreach (var basic in item.BasicDetails)
+    {
+                                <td>@basic.EmailId</td>
+}
+                                    @foreach (var com in item.ProfessionalDetails)
+    {
+                                <td>@com.CompanyName</td>
+}
+                                    @foreach (var loan in item.LoanDetails)
+    {
+                                <td>@loan.LoanAmount</td>
+                                <td>@loan.DueDate</td>
+                                <td>@loan.InterestRate</td>
+                                <td>@loan.InterestRate + @loan.LoanAmount</td>
+
+                                <td>
+
+                                    <select name="selectSm" data-id="SelectLm" class="form-control-sm form-control statusc">
+                                        <option data-id="0" value="0">Select</option>
+                                        <option data-id="@item.PhoneNumber" value="settle">settle</option>
+                                        <option data-id="@item.PhoneNumber" value="Pending">Pending</option>
+                                        <option data-id="@item.PhoneNumber" value="default">default</option>
+                                    </select>
+                                </td>
+}
+                                </tr>
+}
+
+                                </tbody>
+                            </table>
+                        </div>
+                        <!-- /.card-body -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>

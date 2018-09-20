@@ -1,0 +1,98 @@
+﻿@model List<WebApp.Register>
+@{
+    ViewBag.Title = "Payments";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<!-- Content Wrapper. Contains page content -->
+<div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <section class="content">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3 class="card-title">Payments Table</h3>
+                        </div>
+                        <!-- /.card-header -->
+                        <div class="card-body p-0">
+                            <table class="table table-striped">
+                                <tbody>
+                                    <tr>
+                                        <th>One Time Fee Id</th>
+                                        <th>Phone Number</th>
+                                        <th>Fee</th>
+                                        <th>Date</th>
+                                        <th>Transaction No</th>
+                                        <th>Status</th>
+                                        <th>Application Status</th>
+
+                                    </tr>
+                                    @foreach (var item in Model)
+                                    {
+                                        <tr>
+                                            @foreach (var trans in item.OneTimeFees)
+                                            {
+                                                <td>@trans.OneTimeFeeID</td>
+
+                                                <td>@item.PhoneNumber</td>
+                                                <td>@trans.Fee</td>
+                                                <td>@trans.Date</td>
+                                                <td>@trans.FeeTransactionNo</td>
+                                                <td>@trans.Status</td>
+
+                                                <td>
+                                                    <select name="selectSm" data-id="SelectLm" class="form-control-sm form-control statusc">
+                                                        <option data-id="0" value="0">Select</option>
+                                                        <option data-id="@item.PhoneNumber" value="Paid">Paid</option>
+                                                        <option data-id="@item.PhoneNumber" value="Not Paid">Not Paid</option>
+
+                                                    </select>
+                                                </td>
+                                            }
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                        <!-- /.card-body -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $(".statusc").change(function () {
+            var PhoneNumber = $(this).find(':selected').data('id');
+            var Status = $(this).val();
+
+            $.ajax({
+                url: "/OneTimeProccessingFee/ChangeOneTimeFeeStatus",
+                type: "POST",
+                data: {
+
+                    PhoneNumber: PhoneNumber,
+                    Status: Status,
+
+                },
+                dataType: "json",
+                success: function (response) {
+                    swal("Status updated successfully");
+                },
+                failure: function (response) {
+                    swal("error");
+                },
+
+            });
+        });
+    });
+</script>
+
+
+

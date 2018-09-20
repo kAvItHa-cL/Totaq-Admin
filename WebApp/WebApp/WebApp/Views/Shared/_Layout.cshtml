@@ -1,0 +1,180 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>@ViewBag.Title </title>
+    <!-- Font Awesome Icons -->
+    <link rel="shortcut icon" href="~/Content/img/Totaq.ico" type="x-icon">
+    <link rel="apple-touch-icon" type="x-icon" href="~/Content/img/Totaq.ico">
+    <link rel="apple-touch-icon" type="x-icon" sizes="72x72" href="~/Content/img/Totaq.ico">
+    <link rel="apple-touch-icon" type="x-icon" sizes="114x114" href="~/Content/img/Totaq.ico">
+    <link rel="apple-touch-icon" type="x-icon" sizes="144x144" href="~/Content/img/Totaq.ico">
+
+    <link rel="stylesheet" href="~/Content/sweetalert.css">
+    <link rel="stylesheet" href="~/plugins/font-awesome/css/font-awesome.min.css">
+    <!-- Theme style -->
+    <link rel="stylesheet" href="~/dist/css/adminlte.min.css">
+    <!-- Google Font: Source Sans Pro -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+</head>
+<body class="hold-transition sidebar-mini">
+    <div class="wrapper">
+        <!-- Navbar -->
+        <nav class="main-header navbar navbar-expand bg-white navbar-light border-bottom">
+            <!-- Left navbar links -->
+
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" data-widget="pushmenu" href="#"><i class="fa fa-bars"></i></a>
+                </li>
+            </ul>
+
+            <!-- SEARCH FORM -->
+            <form class="form-inline ml-9">
+                <div class="input-group input-group-sm">
+                    <input class="form-control form-control-navbar" type="search" placeholder="Search" aria-label="Search">
+                    <div class="input-group-append">
+                        <button class="btn btn-navbar" type="submit">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+                </div>
+            </form>
+            <!-- Right navbar links -->
+        </nav>
+        <!-- /.navbar -->
+        <!-- Main Sidebar Container -->
+        <aside class="main-sidebar sidebar-dark-primary elevation-4">
+            <!-- Brand Logo -->
+            <a href=""  class="brand-link">
+
+                <img style="width: 181px;" src="~/Content/img/TOTQ FINAL.png" />
+            </a>
+            <!-- Sidebar -->
+            <div class="sidebar">
+                <!-- Sidebar Menu -->
+                <nav class="mt-2">
+                    <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+                        <!-- Add icons to the links using the .nav-icon class
+    with font-awesome or any other icon font library -->
+                        <li class="nav-item">
+                            <a  href="@Url.Action("Index", "DashBoard")" class="nav-link">
+                                <i class="nav-icon fa fa-th"></i>
+                                <p>
+                                    Dashboard
+                                </p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="@Url.Action("Register", "Register")" class="nav-link">
+                                <i class="nav-icon fa fa-newspaper-o"></i>
+                                <p>
+                                    Application
+                                </p>
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="@Url.Action("LoanApplication", "LoanApplication")" class="nav-link">
+                                <i class="nav-icon fa fa-money"></i>
+                                <p>
+                                    Loan Application
+                                </p>
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="@Url.Action("RedFlag", "RedFlag")" class="nav-link">
+                                <i class="nav-icon fa fa-bookmark-o"></i>
+                                <p>
+                                    Red Flag
+                                </p>
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="@Url.Action("OneTimeProccessingFee", "OneTimeProccessingFee")" class="nav-link">
+                                <i class="nav-icon fa fa-credit-card-alt"></i>
+                                <p>
+                                    One Time Processing Fee
+                                </p>
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="@Url.Action("Payment", "Payments")" class="nav-link">
+                                <i class="nav-icon fa fa-viacoin"></i>
+                                <p>
+                                    Payments
+                                </p>
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="@Url.Action("ContactUser", "ContactUser")" class="nav-link">
+                                <i class="nav-icon fa fa-user"></i>
+                                <p>
+                                    Contact User
+                                </p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="@Url.Action("Contact", "Contact")" class="nav-link">
+                                <i class="nav-icon fa fa-users"></i>
+                                <p>
+                                    User Contact
+                                </p>
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="@Url.Action("Logout", "SignIn")" class="nav-link">
+                                <i class="nav-icon fa fa-user-circle"></i>
+                                <p>
+                                    Log Out
+                                </p>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- /.sidebar-menu -->
+            </div>
+            <!-- /.sidebar -->
+        </aside>
+
+        @RenderBody()
+
+        <!-- Control Sidebar -->
+        <aside class="control-sidebar control-sidebar-dark">
+            <!-- Control sidebar content goes here -->
+            <div class="p-3">
+                <h5>Title</h5>
+                <p>Sidebar content</p>
+            </div>
+        </aside>
+        <!-- /.control-sidebar -->
+        <!-- Main Footer -->
+        <!-- Main Footer -->
+        <footer class="main-footer">
+            <!-- To the right -->
+            
+            <!-- Default to the left -->
+            <strong>Copyright &copy; 2018 <a href="totaqloans.com"></a>.</strong> All rights reserved.
+        </footer>
+    </div>
+    <!-- REQUIRED SCRIPTS -->
+    <!-- jQuery -->
+    <script src="~/plugins/jquery/jquery.min.js"></script>
+    <!-- Bootstrap 4 -->
+    <script src="~/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- AdminLTE App -->
+    <script src="~/dist/js/adminlte.min.js"></script>
+    <script src="~/Content/scripts/alert.js"></script>
+    <script src="~/Content/scripts/sweetalert.min.js"></script>
+    <script src="~/Content/scripts/jquery.js"></script>
+</body>
+</html>
+
